@@ -83,7 +83,7 @@ p span.i1{
 	padding-left: 2em;
 }
 
-/*  all this messy stuff is to avoid the use of a business-card class */
+/*  all this messy stuff is to avoid the use of a one-off business-card class */
 #chapter-4 blockquote:nth-of-type(2)  p{
 	text-align: center;
 	text-indent: 0;
