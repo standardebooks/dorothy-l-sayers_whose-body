@@ -4,7 +4,6 @@
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/dorothy-l-sayers/whose-body</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -27,55 +26,64 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Whose Body?</dc:title>
 		<meta property="file-as" refines="#title">Whose Body?</meta>
 		<dc:subject id="subject-1">Private investigators -- England -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Detective and mystery stories</dc:subject>
 		<dc:subject id="subject-3">Murder -- Investigation -- Fiction</dc:subject>
 		<dc:subject id="subject-4">Wimsey, Peter, Lord (Fictitious character), 1890- -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/58820</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/58820</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/58820</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/58820</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh2008109474</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh85037260</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008107761</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">Unknown</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Mystery</meta>
+		<dc:description id="description">An aristocratic detective unravels the mystery of a body deposited in a bathtub in 1920s England.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			LONGDESCRIPTION
-		]]></meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;&lt;i&gt;Whose Body?&lt;/i&gt;, published in 1923, is the first in a long and very popular series of mystery novels written by Dorothy L. Sayers and featuring her aristocratic detective Lord Peter Wimsey.&lt;/p&gt;
+			&lt;p&gt;In this novel we are introduced to Wimsey, his imperturbable and multi-skilled butler Bunter, and his close friend Charles Parker of Scotland Yard as they come together to investigate an extremely mysterious incident: the naked body of a man, wearing a golden pince-nez, has been discovered in the bath of a bewildered tenant of a flat in Battersea. There’s a good deal of humor in the book, carefully balanced against the grim reality of murder.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Whose Body?&lt;/i&gt; was well-received on first publication, and provided a basis for Sayer’s successful career as a novelist. In sum, she wrote some eleven Wimsey novels as well as several short stories featuring the characters. Nevertheless, it appears that she herself felt that her translation of Dante’s &lt;i&gt;Divine Comedy&lt;/i&gt; was her greatest literary work.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/58820</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:source>https://archive.org/details/whosebody00saye_1</dc:source>
+		<meta property="se:production-notes">(1) There are a number of unsemanticated italic tags in a simulated excerpt from “Who’s Who” in chapter 8. I don't think these can be avoided. (2) Lint complains about the lack of a marc relator for the illustrator, but the artist of the Wimsey coat of arms in the frontispiece appears to be unknown (could have been Sayers herself, but I can’t find proof of this).</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Whose_Body%3F</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/dorothy-l-sayers_whose-body</meta>
 		<dc:creator id="author">Dorothy L. Sayers</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Sayers, Dorothy L.</meta>
+		<meta property="se:name.person.full-name" refines="#author">Dorothy Leigh Sayers</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Dorothy_L._Sayers</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHORNACOAFLINK</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79046044</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<dc:contributor id="artist">Thomas Eakins</dc:contributor>
+		<meta property="file-as" refines="#artist">Eakins, Thomas</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Thomas_Eakins</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n80061185</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Tim Lindell</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Lindell, Tim</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Melissa McDaniel</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-2">McDaniel, Melissa</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://rightword.com.au/david.php</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
