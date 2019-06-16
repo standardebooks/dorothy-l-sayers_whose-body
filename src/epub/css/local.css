@@ -15,19 +15,6 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-blockquote.business-card p{
-	text-align: center;
-	text-indent: 0;
-}
-
-blockquote.business-card p:first-child{
-	font-variant: small-caps;
-}
-
-blockquote.business-card p:last-child{
-	font-style: italic;
-}
-
 .anagram{
 	text-align: center;
 	font-variant: all-small-caps;
@@ -38,11 +25,6 @@ blockquote.business-card p:last-child{
 
 .speaker{
 	font-style: italic;
-}
-
-[epub|type~="se:letter.dateline"]{
-	margin-top: 1em;
-	text-align: right;
 }
 
 [epub|type~="z3998:letter"] header{
@@ -73,25 +55,25 @@ blockquote.business-card p:last-child{
 	font-variant: small-caps;
 }
 
+[epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
+[epub|type~="z3998:song"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
-[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
-}
-
+[epub|type~="z3998:song"] + p,
 [epub|type~="z3998:verse"] + p{
 	text-indent: 0;
 }
@@ -99,4 +81,18 @@ blockquote.business-card p:last-child{
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
+}
+
+/*  all this messy stuff is to avoid the use of a business-card class */
+#chapter-4 blockquote:nth-of-type(2)  p{
+	text-align: center;
+	text-indent: 0;
+}
+
+#chapter-4 blockquote:nth-of-type(2)  p:first-child{
+	font-variant: small-caps;
+}
+
+#chapter-4 blockquote:nth-of-type(2) p:last-child{
+	font-style: italic;
 }
