@@ -2,11 +2,11 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 header{
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
 }
 
-footer p{
-	margin-top: 0.5em;
+footer{
+	margin-top: 1em;
 	text-align: right;
 }
 
@@ -19,36 +19,26 @@ span[epub|type~="subtitle"]{
 	text-align: center;
 	font-variant: all-small-caps;
 	text-indent: 0;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .speaker{
 	font-style: italic;
 }
 
-[epub|type~="z3998:letter"] header{
-	margin-bottom: 1em;
-	text-align: left;
+[epub|type~="z3998:letter"] header p{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:letter"] footer{
+footer{
 	margin-top: 1em;
+	text-align: right;
 }
 
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:recipient"]{
 	font-variant: small-caps;
-	text-indent: 0;
-}
-
-[epub|type~="z3998:valediction"]{
-	text-align: right;
-}
-
-[epub|type~="z3998:sender"]{
-	text-align: right;
 }
 
 .signature{
@@ -83,16 +73,15 @@ p span.i1{
 	padding-left: 2em;
 }
 
-/*  all this messy stuff is to avoid the use of a one-off business-card class */
-#chapter-4 blockquote:nth-of-type(2)  p{
+.card p{
 	text-align: center;
 	text-indent: 0;
 }
 
-#chapter-4 blockquote:nth-of-type(2)  p:first-child{
+.card p:first-child{
 	font-variant: small-caps;
 }
 
-#chapter-4 blockquote:nth-of-type(2) p:last-child{
+.card p + p{
 	font-style: italic;
 }
