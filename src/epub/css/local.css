@@ -91,15 +91,15 @@ p span.i1{
 	padding-left: 2em;
 }
 
-.card p{
+#chapter-4 blockquote:last-of-type p{
 	text-align: center;
 	text-indent: 0;
 }
 
-.card p:first-child{
+#chapter-4 blockquote:last-of-type p:first-child{
 	font-variant: small-caps;
 }
 
-.card p + p{
+#chapter-4 blockquote:last-of-type p + p{
 	font-style: italic;
 }
