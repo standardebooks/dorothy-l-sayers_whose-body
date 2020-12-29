@@ -11,7 +11,7 @@ footer{
 }
 
 footer [epub|type~="z3998:recipient"]{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -40,11 +40,11 @@ footer [epub|type~="z3998:recipient"]{
 }
 
 [epub|type~="z3998:salutation"]{
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:postscript"]{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 	margin-top: 1em;
 }
@@ -61,7 +61,7 @@ footer [epub|type~="z3998:recipient"]{
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
