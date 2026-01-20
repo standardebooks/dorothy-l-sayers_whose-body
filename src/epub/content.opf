@@ -65,7 +65,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/58820</dc:source>
 		<dc:source>https://archive.org/details/whosebody00saye_1</dc:source>
 		<meta property="se:production-notes">(1) There are a number of unsemanticated italic tags in a simulated excerpt from “Who’s Who” in chapter 8. I don't think these can be avoided.</meta>
-		<meta property="se:word-count">60937</meta>
+		<meta property="se:word-count">59079</meta>
 		<meta property="se:reading-ease.flesch">73.78</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Whose_Body%3F</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/dorothy-l-sayers_whose-body</meta>
