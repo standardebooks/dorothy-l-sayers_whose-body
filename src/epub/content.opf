@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/dorothy-l-sayers/whose-body</dc:identifier>
 		<dc:date>2019-06-18T23:06:49Z</dc:date>
@@ -56,12 +56,12 @@
 		<meta property="group-position" refines="#collection-1">1</meta>
 		<meta id="collection-2" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<dc:description id="description">An aristocratic detective unravels the mystery of a body deposited in a bathtub in 1920s England.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>An aristocratic detective unravels the mystery of a body deposited in a bathtub in 1920s England.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;Whose Body?&lt;/i&gt;, published in 1923, is the first in a long and very popular series of mystery novels written by &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy &lt;abbr&gt;L.&lt;/abbr&gt; Sayers&lt;/a&gt; and featuring her aristocratic detective Lord Peter Wimsey.&lt;/p&gt;
 			&lt;p&gt;In this novel we are introduced to Wimsey, his imperturbable and multi-skilled butler Bunter, and his close friend Charles Parker of Scotland Yard as they come together to investigate an extremely mysterious incident: the naked body of a man, wearing a golden pince-nez, has been discovered in the bath of a bewildered tenant of a flat in Battersea. There’s a good deal of humor in the book, carefully balanced against the grim reality of murder.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Whose Body?&lt;/i&gt; was well-received on first publication, and provided a basis for Sayer’s successful career as a novelist. In sum, she wrote some eleven Wimsey novels as well as several short stories featuring the characters. Nevertheless, it appears that she herself felt that her translation of &lt;a href="https://standardebooks.org/ebooks/dante-alighieri"&gt;Dante’s&lt;/a&gt; &lt;i&gt;Divine Comedy&lt;/i&gt; was her greatest literary work.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/58820</dc:source>
 		<dc:source>https://archive.org/details/whosebody00saye_1</dc:source>
