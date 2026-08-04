@@ -56,7 +56,7 @@
 		<meta property="group-position" refines="#collection-1">1</meta>
 		<meta id="collection-2" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<dc:abstract>An aristocratic detective unravels the mystery of a body deposited in a bathtub in 1920s England.</dc:abstract>
+		<meta property="schema:abstract">An aristocratic detective unravels the mystery of a body deposited in a bathtub in 1920s England.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Whose Body?&lt;/i&gt;, published in 1923, is the first in a long and very popular series of mystery novels written by &lt;a href="https://standardebooks.org/ebooks/dorothy-l-sayers"&gt;Dorothy &lt;abbr&gt;L.&lt;/abbr&gt; Sayers&lt;/a&gt; and featuring her aristocratic detective Lord Peter Wimsey.&lt;/p&gt;
 			&lt;p&gt;In this novel we are introduced to Wimsey, his imperturbable and multi-skilled butler Bunter, and his close friend Charles Parker of Scotland Yard as they come together to investigate an extremely mysterious incident: the naked body of a man, wearing a golden pince-nez, has been discovered in the bath of a bewildered tenant of a flat in Battersea. There’s a good deal of humor in the book, carefully balanced against the grim reality of murder.&lt;/p&gt;
